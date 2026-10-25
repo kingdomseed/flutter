@@ -1,6 +1,6 @@
-[Download raw measurements, profiles, source, and test logs](desktop-semantics-evidence.zip).
-
 # Desktop semantics lifecycle measurements
+
+Raw recordings, logs, source, and measurement files are retained locally. File paths below refer to those local records.
 
 The 1000-node full-label-churn workload used more process CPU after the fix. Its median cost increased by 1.42 ms per completed frame. The small reproduction showed no measurable CPU difference. Memory differences were smaller than the observed run-to-run ranges in both workloads, so no memory improvement or regression is established.
 
